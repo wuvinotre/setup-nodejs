@@ -1,0 +1,22 @@
+{
+  "name": "testing-for-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vuinishiusu",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "start:dev": "tsx watch src/index.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.5"
+  },
+  "dependencies": {
+    "zod": "^3.22.2"
+  }
+}
